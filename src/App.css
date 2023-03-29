@@ -78,8 +78,8 @@ li {
 .photo {
   height: 600px;
   width: 450px;
-  /* padding-top: 60px; */
-  /* padding-left: 150px; */
+  border-radius: 100px;
+  box-shadow: 15px 8px 15px rgb(110, 159, 227);
 }
 
 .info {
@@ -89,6 +89,6 @@ li {
   text-align: center;
   list-style-type: none;
   background-color: white;
-  box-shadow: 20px 10px 5px black;
+  box-shadow: 15px 8px 15px 3px rgb(110, 159, 227);
   border-radius: 100px;
 }
