@@ -54,7 +54,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 186, 197);
+  background-color: rgb(231, 68, 168);
 }
 
 .navbarbtns {
@@ -68,7 +68,7 @@ li {
   padding-right: 100px;
 }
 
-.about {
+.container {
   display: flex;
   justify-content: space-around;
   padding-top: 60px;
@@ -91,4 +91,23 @@ li {
   background-color: white;
   box-shadow: 15px 8px 15px 3px rgb(110, 159, 227);
   border-radius: 100px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(160, 248, 219);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(110, 159, 227);
+  text-decoration: underline overline wavy;
 }

@@ -6,13 +6,13 @@ function NavBar() {
     return (
         <nav className="navbar">
             <div className="navbarbtns">
-                <Link to='/'>Sassy  <i class="fa-solid fa-shirt"></i>  Shirts</Link>
-                <Link to='/about'>About  <i class="fa-solid fa-user"></i>  Me</Link>
-                <Link to='/contact'>Contact  <i class="fa-solid fa-mobile-screen-button"></i>  Me</Link>
+                <Link to='/' className="btn">Sassy  <i class="fa-solid fa-shirt"></i>  Shirts</Link>
+                <Link to='/about' className="btn">About  <i class="fa-solid fa-user"></i>  Me</Link>
+                <Link to='/contact' className="btn">Contact  <i class="fa-solid fa-mobile-screen-button"></i>  Me</Link>
             </div>
 
             <div className="cartbtn">
-            <Link to='/cart'>My  <i class="fa-solid fa-cart-shopping"></i>  Cart</Link>
+            <Link to='/cart' className="btn">My  <i class="fa-solid fa-cart-shopping"></i>  Cart</Link>
             </div>
         </nav>
     )
