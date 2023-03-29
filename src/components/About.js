@@ -8,7 +8,7 @@ function About() {
             <img src={Sadie} className="photo" alt="Sadie"/>
             </div>
 
-            <div className="info">
+            <div className="infobox">
                 <h1>Hi! I'm Mercedies!</h1>
                 <h2>It is nice to meet you!</h2>
                 <h2>About Me</h2>

@@ -82,7 +82,7 @@ li {
   box-shadow: 15px 8px 15px rgb(110, 159, 227);
 }
 
-.info {
+.infobox {
   width: 40%;
   display: block;
   align-self: center;
@@ -104,10 +104,24 @@ li {
   width: 150px;
   background-color: rgb(160, 248, 219);
   border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px rgb(110, 159, 227);
 }
 
 .btn:hover {
   color: white;
   background-color: rgb(110, 159, 227);
   text-decoration: underline overline wavy;
+}
+
+.btn:focus {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(231, 68, 168);
 }
