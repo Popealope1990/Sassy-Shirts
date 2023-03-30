@@ -75,11 +75,24 @@ li {
 
 }
 
+.container2 {
+  padding-top: 60px;
+  text-align: center;
+}
+
 .photo {
   height: 600px;
   width: 450px;
   border-radius: 100px;
   box-shadow: 15px 8px 15px rgb(110, 159, 227);
+}
+
+.shirtphoto {
+  height: 400px;
+  width: 250px;
+  border-radius: 25px;
+  box-shadow: 15px 8px 15px rgb(110, 159, 227);
+  margin: 30px;
 }
 
 .infobox {
@@ -124,4 +137,9 @@ a {
 
 a:hover {
   color: rgb(231, 68, 168);
+}
+
+.shirts {
+  display: flex;
+  justify-content: space-around;
 }

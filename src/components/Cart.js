@@ -2,8 +2,8 @@ import React from "react";
 
 function Cart() {
     return (
-        <div>
-            <h3>Hello From Cart</h3>
+        <div className="container">
+            <h3>Cart Page</h3>
         </div>
     )
 }
